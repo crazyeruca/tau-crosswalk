@@ -1,0 +1,19 @@
+entry: Init_Crosswalk_extension
+javaentry: com.crosswalk.Crosswalk
+libraries: ["Crosswalk"]
+android:
+  adds: ext/platform/android/adds
+  manifest_changes: ext/platform/android/AndroidManifest.xml
+  rhodes_listener: com.tautechnologies.tau.crosswalk.RhodesListener
+  exttype: rakefile
+  source_list: ext/platform/android/ext_java.files
+
+wp8:
+  csharp_impl: yes
+  root_namespace: rho
+
+project_paths:
+  wp8: ext/platform/wp8/CrosswalkLib.vcxproj
+  wm: ext/platform/wm/Crosswalk.vcproj
+
+xml_api_paths: ext/Crosswalk.xml

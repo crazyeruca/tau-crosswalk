@@ -1,0 +1,7 @@
+ext/platform/android/generated/jni/Crosswalk.cpp
+ext/platform/android/generated/jni/crosswalk_ruby_wrap.cpp
+ext/platform/android/generated/jni/crosswalk_js_wrap.cpp
+ext/platform/android/jni/Crosswalk_impl.cpp
+ext/shared/generated/crosswalk_api_init.cpp
+ext/shared/generated/crosswalk_js_api.cpp
+ext/shared/generated/crosswalk_ruby_api.c
