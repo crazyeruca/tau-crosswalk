@@ -6,10 +6,11 @@ It is now a beta so some bugs or lack of functionality is possible.
 
 Usage: modify build.yml of your Rhomobile application as follows:
 
+```
 android:
   extensions:
   - crosswalk
-
 paths:
   extensions:
   - </path/to/tau-crosswalk>
+```
